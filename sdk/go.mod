@@ -6,6 +6,10 @@ require (
 	github.com/armon/go-metrics v0.3.3
 	github.com/armon/go-radix v1.0.0
 	github.com/aws/aws-sdk-go v1.30.27
+	github.com/containerd/containerd v1.3.4 // indirect
+	github.com/docker/distribution v2.7.1+incompatible // indirect
+	github.com/docker/docker v1.4.2-0.20200319182547-c7ad2b866182
+	github.com/docker/go-connections v0.4.0
 	github.com/fatih/structs v1.1.0
 	github.com/go-ldap/ldap/v3 v3.1.10
 	github.com/go-test/deep v1.0.2
@@ -36,6 +40,7 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/ryanuber/go-glob v1.0.0
 	golang.org/x/crypto v0.0.0-20200510223506-06a226fb4e37
+	golang.org/x/net v0.0.0-20200519113804-d87ec0cfa476
 	golang.org/x/sys v0.0.0-20200519105757-fe76b779f299
 	google.golang.org/grpc v1.29.1
 	google.golang.org/protobuf v1.24.0

@@ -123,8 +123,7 @@ func (dc *DockerCluster) RootToken() string {
 }
 
 func (dc *DockerCluster) Name() string {
-	// TODO return UUID cluster name
-	return dc.PluginName
+	return dc.ClusterName
 }
 
 func (dc *DockerCluster) Client() (*api.Client, error) {
@@ -136,7 +135,6 @@ func (dc *DockerCluster) Client() (*api.Client, error) {
 			}
 			c.SetToken(dc.ClusterNodes[0].Client.Token())
 			return c, nil
-			// return dc.ClusterNodes[0].Client, nil
 		}
 	}
 
